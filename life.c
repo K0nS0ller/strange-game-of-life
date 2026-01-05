@@ -2,6 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <stdbool.h>
 
 //you can change it, if you need to change field size
 #define ROW 100
