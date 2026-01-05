@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-//можно поменять если нужно поменять размер поля
+//you can change it, if you need to change field size
 #define ROW 100
 #define COLUMN 100
 
@@ -32,7 +32,7 @@ void begin(){
 
     for(int r = 1; r < ROW; r++){
         for(int c = 1; c < COLUMN; c++){
-            if(randnum() % 101 < 1){ //шанс оживления клетки вначале
+            if(randnum() % 101 < 1){ //chance of block aliving in beginning
                 grid[r][c].alive = true;
             }
             rand_sub++;
@@ -97,7 +97,7 @@ void logic(){
                     check(r_around, c_around, row, column);
                 }
 
-//правила здесь
+//RULES!!!
                 if(grid[row][column].alive_around == 2){
                     grid[row][column].alive = true;
                 } else{
