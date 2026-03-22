@@ -1,11 +1,3 @@
-                                             m""         ""#      "      m""        
-  mmmm   mmm   mmmmm   mmm           mmm   mm#mm           #    mmm    mm#mm   mmm  
- #" "#  "   #  # # #  #"  #         #" "#    #             #      #      #    #"  # 
- #   #  m"""#  # # #  #""""         #   #    #             #      #      #    #"""" 
- "#m"#  "mm"#  # # #  "#mm"         "#m#"    #             "mm  mm#mm    #    "#mm" 
-  m  #                                                                              
-   ""         
-
 # how to compile?
 you can compile it with that command:
 ```sh
