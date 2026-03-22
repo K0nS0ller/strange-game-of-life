@@ -1,5 +1,5 @@
 # HOW TO COMPILE?
-** you can compile it with that command:
+you can compile it with that command:
 ```sh
 gcc life.c -o life
 ```
