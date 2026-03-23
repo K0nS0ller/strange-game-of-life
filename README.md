@@ -43,7 +43,7 @@ if (grid[row][column].alive) {
 
 after compiling, we can see:
 
-![conway](screenshots/Conway.gif)
+![conway](screenshots/conway.gif)
 
 there is another rules:
 
