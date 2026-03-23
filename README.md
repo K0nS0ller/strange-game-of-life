@@ -1,3 +1,6 @@
+[logo](screenshots/text.png)
+
+
 # how to compile?
 you can compile it with that command:
 ```sh
@@ -38,3 +41,19 @@ if (grid[row][column].alive) {
 }
 ```
 
+after compiling, we can see:
+
+[Conway-rules](screenshots/Conway.mp4)
+
+there is another rules:
+
+```c
+if(grid[row][column].alive_around >= 4){
+    grid[row][column].alive = true;
+}
+else grid[row][column].alive = false
+```
+
+the result is:
+
+[growing-life](screenshots/growing-smth.mp4)
