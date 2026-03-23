@@ -43,7 +43,7 @@ if (grid[row][column].alive) {
 
 after compiling, we can see:
 
-<video src="screenshots/Conway.mp4" controls></video>
+![conway](screenshots/Conway.gif)
 
 there is another rules:
 
@@ -56,4 +56,4 @@ else grid[row][column].alive = false
 
 the result is:
 
-<video src="screenshots/growing-smth.mp4" controls></video>
+![growing life](screenshots/growing-smth.gif)
