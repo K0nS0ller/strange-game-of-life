@@ -1,4 +1,4 @@
-[![logo](screenshots/text.png)
+![logo](screenshots/text.png)
 
 
 # how to compile?
@@ -43,7 +43,7 @@ if (grid[row][column].alive) {
 
 after compiling, we can see:
 
-[Conway-rules](screenshots/Conway.mp4)
+![Conway-rules](screenshots/Conway.mp4)
 
 there is another rules:
 
@@ -56,4 +56,4 @@ else grid[row][column].alive = false
 
 the result is:
 
-[growing-life](screenshots/growing-smth.mp4)
+![growing-life](screenshots/growing-smth.mp4)
