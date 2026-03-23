@@ -1,4 +1,4 @@
-[logo](screenshots/text.png)
+[![logo](screenshots/text.png)
 
 
 # how to compile?
